@@ -112,7 +112,7 @@ const refreshMeter = (detail) => {
 
     const formattedDistance = (round(accumulatedDistance, 3)).toLocaleString('en-US', { minimumFractionDigits: 3 })
     distanceBox.textContent = formattedDistance;
-    report(`3. Updated path with ${delta} mi | accumulatedDistance = ${formattedDistance}`);
+    report(`3. Updated path with ${delta} km | accumulatedDistance = ${formattedDistance}`);
 
     return resolve(detail);
   })

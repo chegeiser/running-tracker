@@ -1,4 +1,4 @@
-let map = L.map("tracker").setView(LONDON_CENTRE_LAT_LNG, 13);
+let map = L.map("tracker").setView(NevadaCity_CENTRE_LAT_LNG, 13);
 let isStart = null;
 let path = null;
 let accumulatedDistance = 0;
